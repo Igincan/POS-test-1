@@ -1,0 +1,1 @@
+cat /etc/passwd | tail -n 20 | head -n 10 | sort | cut -d ":" -f 1 | xargs -L1 mkdir

@@ -1,0 +1,1 @@
+find / 2> inaccesibile_dirs.txt 1> /dev/null
